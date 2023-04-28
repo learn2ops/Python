@@ -6,5 +6,10 @@ pipeline {
                 echo "Hi from pipeline"
             }
         }
+        stage('step2'){
+            steps {
+                sh 'python3 file.py'
+            }
+        }
     }
 }
