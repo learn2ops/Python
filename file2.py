@@ -1,1 +1,1 @@
-print("Bye!")
+print("print hi from third stage!")
